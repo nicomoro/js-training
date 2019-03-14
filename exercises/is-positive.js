@@ -8,7 +8,15 @@
  */
 
 // Your code:
-
+let valeur = 6;
+function isPositive(valeur){
+    if (valeur>0){
+        return true;
+    }
+    else {
+        return false;
+    }
+};
 
 //* Begin of tests
 const assert = require('assert')
