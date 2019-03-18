@@ -16,6 +16,20 @@ const sourceObject = {
 }
 
 // Your code :
+const get = key => {
+  if (key === 'num') {
+    return sourceObject.num
+  }
+  if (key === 'bool') {
+    return sourceObject.bool
+  }
+  if (key === 'str') {
+    return sourceObject.str
+  }
+  if (key === 'log') {
+    return sourceObject.log
+  }
+}
 
 //* Begin of tests
 const assert = require('assert')
